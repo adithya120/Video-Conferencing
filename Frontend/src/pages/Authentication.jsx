@@ -25,11 +25,11 @@ export default function Authentication() {
 
     
 
-    const [username, setUsername] = React.useState();
-    const [password, setPassword] = React.useState();
-    const [name, setName] = React.useState();
-    const [error, setError] = React.useState();
-    const [message, setMessage] = React.useState();
+    const [username, setUsername] = React.useState('');
+    const [password, setPassword] = React.useState('');
+    const [name, setName] = React.useState('');
+    const [error, setError] = React.useState('');
+    const [message, setMessage] = React.useState('');
 
 
     const [formState, setFormState] = React.useState(0);
@@ -173,10 +173,3 @@ export default function Authentication() {
         </ThemeProvider>
     );
 }
-// function Authentication() {
-//   return (
-//     <div>Authentication</div>
-//   )
-// }
-
-// export default Authentication
